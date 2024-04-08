@@ -64,6 +64,40 @@ bool wordsearch(char matrix[N][N], char *word,int row,int col) {
         }
     }
 
+
+
+     // Search diagonally (bottom left to top right (number of rows increase and number ofcolumns increase  in that direction))
+    for (int i = row-1; i>=wl-1; i--) {
+        for (int j = 0; j <= col- wl; j++) {
+            int k;
+            for (k = 0; k < wl; k++) {
+                if (matrix[i-k][j+k] != word[k])
+                    break;
+            }
+            if (k == wl)
+                return true; // Word found 
+        }
+    }
+    
+
+
+    // Search diagonally (bottom right to top left (number of rows increase and number ofcolumns increase  in that direction))
+    
+
+
+    for (int i = row- 1; i >= wl - 1; i--) {
+        for (int j = col - 1; j >= wl - 1; j--) {
+            int k;
+            for (k = 0; k < wl; k++) {
+                if (matrix[i-k][j-k] != word[k])
+                    break;
+            }
+            if (k == wl)
+                return true; // Word found diagonally (bottom-right to top-left)
+        }
+    }
+
+
     
 
     return false; // Word not found
