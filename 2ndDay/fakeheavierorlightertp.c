@@ -33,6 +33,11 @@ int main(){
         printf("Inside....");
         printf("Enter the current left %d coin",left);
         scanf("%d",&a[left]);
+        if(left==right &&(key==a[right+1])){
+            key=a[left];
+            flag=2;
+            break;
+        }
         if(left==right){
             break;
         }
@@ -91,5 +96,14 @@ if(flag==0){
     }
 }
 
+
+if(flag==2){
+     if(key<a[n-1]){
+       printf("The fake element %d is lighter",key);
+    }
+    else if(key>a[n-1]){
+         printf("The fake element %d is higher",key);
+    }
+}
     return 0;
 }
