@@ -9,6 +9,8 @@ Solutions:
 2. [Word Search in 2D array(matrix) problem - 2 ](https://github.com/shashankgurunaga1/dsa-quantmasters/blob/main/1stDay/2dmatrixwordsearch.c)
 
 3. [Word Search in 2D array(matrix) problem - 2 (2nd solution) ](https://github.com/shashankgurunaga1/dsa-quantmasters/blob/main/1stDay/2Dwordsearch.c)
+
+4.  [Find the pivot integer of given n natural numbers Problem-3 ](https://github.com/shashankgurunaga1/dsa-quantmasters/blob/main/1stDay/PivotInteger.md)
 ## Day - 2
 
 Solutions for Day 2: [Day2](https://github.com/shashankgurunaga1/dsa-quantmasters/tree/main/2ndDay)
