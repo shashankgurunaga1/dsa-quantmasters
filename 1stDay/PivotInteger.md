@@ -1,7 +1,7 @@
 ## HERE'S  THE  QUESTION
 
 
-##  <u>***FIND THE PIVOT INTEGER USING  AMONG N  NATURAL NUMBERS `O(1)` time complexity***</u>
+##  <u>***FIND THE PIVOT INTEGER   AMONG N  NATURAL NUMBERS  USING AN ALGORITHM WITH `O(1)` time complexity***</u>
 
 `WHAT IS  PIVOT INTEGER?`
 >A pivot integer is a particular number in a sorted sequence such that the sum of numbers before it is equal to the sum of numbers after it.
