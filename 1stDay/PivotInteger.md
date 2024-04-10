@@ -8,9 +8,9 @@
  
  In a given set of natural numbers an equilibrium point x can be obtained as:-
  ```Considerring x to be the pivot integer,
-1+2+3+.....+x=x+(x+1)+(x+2)+....+n
-Therefore,
-(x*(x+1))=(n*(n+1))/2
+1+2+3+.....+x-1=(x+1)+(x+2)+....+n
+
+(x*(x-1))/2=((n*(n+1))/2)-((x*(x+1))/2)
 
 
 ```
